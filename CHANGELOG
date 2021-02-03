@@ -1,0 +1,10 @@
+# change log
+
+## 0.1.9
+
+- 删除 removeAllListeners 相关逻辑,防止在某些极端情况下(防火墙拦截),`error`事件抛出但是没有监视器,从而导致程序退出.
+- 添加 PresetTour 预置点巡航相关配置代码
+
+## 0.1.8
+
+- fix Cannot read property 'Width' of undefined.[参考](https://github.com/futomi/node-onvif/issues/37)
