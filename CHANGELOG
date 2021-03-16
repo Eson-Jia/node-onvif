@@ -1,5 +1,9 @@
 # change log
 
+## 0.2.1
+
+- 更新 ptz 服务中 SetPreset 的参数校验,解决 PresetName 不支持中文的问题
+
 ## 0.1.9
 
 - 删除 removeAllListeners 相关逻辑,防止在某些极端情况下(防火墙拦截),`error`事件抛出但是没有监视器,从而导致程序退出.
